@@ -34,7 +34,7 @@ export function Header() {
         <span className="text-rose-500">Gabriel Oliveira Pimentel</span> e sou
       </span>
 
-      <div className="flex flex-row items-top gap-2">
+      <div className="flex flex-row items-top gap-2 sm:px-12 max-sm:px-6">
         <h1 className="text-6xl max-md:text-5xl mb-6">
           Desenvolvedor Fullstack
         </h1>
