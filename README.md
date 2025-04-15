@@ -4,7 +4,7 @@ Bem-vindo ao meu portfólio! Este projeto foi desenvolvido utilizando **React** 
 
 ## Sobre Mim
 
-Sou um desenvolvedor apaixonado por tecnologia e inovação. Tenho experiência em desenvolvimento web, com foco em **React**, **TypeScript** e **CSS moderno**. Meu objetivo é criar soluções eficientes e impactantes que atendam às necessidades dos usuários.
+Sou um desenvolvedor apaixonado por tecnologia e inovação. Tenho experiência em desenvolvimento de aplicações **React**, **React Native** e **Node.js**, utilizando **JavaScript/TypeScript**, **Next.js**, **API REST**, bancos de dados relacionais e **NoSQL**, seguindo boas práticas como Clean Code e desenvolvimento escalável..
 
 ## Tecnologias Utilizadas
 
