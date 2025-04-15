@@ -1,54 +1,54 @@
-# React + TypeScript + Vite
+# Portfólio - Gabriel Oliveira Pimentel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio! Este projeto foi desenvolvido utilizando **React** e **Tailwind CSS** para criar uma interface moderna, responsiva e de fácil navegação. Aqui você encontrará informações sobre mim e alguns dos meus projetos mais recentes.
 
-Currently, two official plugins are available:
+## Sobre Mim
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sou um desenvolvedor apaixonado por tecnologia e inovação. Tenho experiência em desenvolvimento web, com foco em **React**, **TypeScript** e **CSS moderno**. Meu objetivo é criar soluções eficientes e impactantes que atendam às necessidades dos usuários.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Tailwind CSS**: Framework CSS utilitário para estilização rápida e consistente.
+- **Vite**: Ferramenta de build rápida e moderna para projetos web.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Projetos Recentes
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 1. **Coffee Delivery**
+Aplicação para gerenciar pedidos de café, com funcionalidades como seleção de produtos, cálculo de preços e integração com APIs de pagamento.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **Tecnologias**: React, TypeScript, Context API.
+- **Destaques**: Design responsivo e experiência de usuário otimizada.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### 2. **GitHub Blog**
+Blog integrado à API do GitHub para exibir repositórios e issues como posts.
+
+- **Tecnologias**: React, Styled Components, Axios.
+- **Destaques**: Integração com requisições da API do Github e estilização moderna.
+
+### 3. **Pizza Shop**
+Sistema fullstack para gerenciamento de pedidos para uma pizzaria, com interface intuitiva e autenticação por e-mail.
+
+- **Tecnologias**: React, React Query, Shadcn/UI.
+- **Destaques**: Suporte a internacionalização e design interativo.
+
+### 4. **Gameplay RN**
+Aplicativo mobile para agendamento de partidas de jogos online, desenvolvido com React Native.
+
+- **Tecnologias**: React Native e Expo.
+- **Destaques**: Integração com autenticação com Discord.
+
+## Como Acessar
+
+Você pode acessar meu portfólio através do seguinte link: [gabrieloliveirapimentel.github.io](https://www.gabrieloliveirapimentel.github.io)
+
+## Contato
+
+Se você gostou do meu trabalho ou deseja colaborar em algum projeto, entre em contato comigo:
+
+- **Email**: gabrieloliveirapimentel@hotmail.com
+- **LinkedIn**: [linkedin.com/in/gabriel-pimentel](https://linkedin.com/in/gabriel-pimentel)
+- **GitHub**: [github.com/gabriel-pimentel](https://github.com/gabriel-pimentel)
+
+Obrigado por visitar meu portfólio!
