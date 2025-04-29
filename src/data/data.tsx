@@ -13,7 +13,7 @@ import {
 import coffee_delivery from "../assets/coffee-delivery.svg";
 import dt_money from "../assets/dt-money.svg";
 import gameplay from "../assets/gameplay-rn.svg";
-import github_blog from "../assets/github-blog.svg";
+import typeweather from "../assets/typeweather.svg";
 import github_repositories from "../assets/github-repositories.svg";
 import pizza_shop from "../assets/pizza-shop.svg";
 
@@ -156,6 +156,14 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
+    title: "Typeweather",
+    description:
+      "Aplicação para visualizar clima, com dados reais da API da AccuWeather.",
+    link: "https://github.com/gabrieloliveirapimentel/typeweather",
+    image: typeweather,
+  },
+  {
+    id: 2,
     title: "Pizza Shop",
     description:
       "Aplicação do programa Ignite da Rocketseat para controle de pedidos de pizza.",
@@ -163,20 +171,12 @@ export const projects: Project[] = [
     image: pizza_shop,
   },
   {
-    id: 2,
+    id: 3,
     title: "Coffee Delivery",
     description:
       "Aplicação do programa Ignite da Rocketseat para controle de pedidos de café.",
     link: "https://github.com/gabrieloliveirapimentel/coffee-delivery",
     image: coffee_delivery,
-  },
-  {
-    id: 3,
-    title: "Github Blog",
-    description:
-      "Aplicação do programa Ignite da Rocketseat para visualizar issues de um repositório.",
-    link: "https://github.com/gabrieloliveirapimentel/github-blog",
-    image: github_blog,
   },
   {
     id: 4,
